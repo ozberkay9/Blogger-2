@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+.about .about1 {
+    padding-left: 4rem;
+}
+.about .about1 .about2 {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.5rem;
+    color: #666666;
+}
+.about .about1 .about2 .about3 {
+    text-decoration: none;
+    color: #666666;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: .8rem;
+}
+.about3:hover {
+    border-bottom: solid red thin;
+    transition: all .3s;
+}
+.logo-box {
+
+    border-top: solid rgba(128, 128, 128, 0.473) thin;
+    border-bottom: solid rgba(128, 128, 128, 0.473) thin;
+}
+.logo {
+    padding: 1rem;
+    text-align: center;
+}
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgba(128, 128, 128, 0.459) solid thin;
+    width: 100%;
+    
+}
+.main-nav .main-nav1 {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+.main-nav .main-nav1 .main-nav2 {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.5rem;
+    
+}
+.main-nav .main-nav1 .main-nav2 .main-nav3 {
+    text-decoration: none;
+    color: #666666;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 3px;
+}
+.main-nav3:hover {
+    border-bottom: solid red thick;
+    transition: .2s;
+    color: red;
+}
+main {
+    width: 100%;
+}
+.row {
+    margin-left: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid-1-of-2 {
+    max-width: 400px;
+    display: block;
+    margin: 1rem;
+    float: left;
+    width: calc( (100% - (var(--space-between-grids))) / 2  );
+
+
+}
+.grid-1-of-2:not(:last-child) {
+    margin-right: 2rem;
+}
+.title1 {
+text-align:left;
+padding-bottom: 1rem;
+}
+.click1,
+.click2 {
+    margin-left: 3rem;
+    text-decoration: none;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.click1:hover,
+.click2:hover {
+    border-bottom: solid blue thin;
+    color: blue;
+}
+.text1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.continue {
+text-decoration: none;
+text-transform: capitalize;
+color: #666666;
+background-color: black;
+border-style: none;
+font-size: 1rem;
+padding: .5rem;
+border-radius: 5px;
+}
+.continue:hover {
+    background-color: orangered;
+    color: snow;
+    transition: all .2s;
+    cursor: pointer;
+}
+.image:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
